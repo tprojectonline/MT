@@ -1,0 +1,1850 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+td {
+  /* font-size: 1.1em; */
+  color: black;
+  font-family: Times New Roman, Times, serif;
+
+}
+
+body {
+  background-image: url(/imgMT/bg.gif);
+}
+
+
+
+:root {
+  --accent-light: #427DB1;
+  --accent-dark: #194A76;
+  /* #3B709F; */
+}
+
+/* body,
+td { */
+/* font-size: 102%;  */
+/* color: black;
+  font-family: Times New Roman, Times, serif;
+} */
+
+option {
+  width: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+ul,
+li,
+ol {
+  list-style-position: outside;
+  text-align: justify;
+}
+
+ul,
+ol {
+  margin: 10px 20px 10px;
+}
+
+/* Mark-up table styles*/
+
+.vertical-middle {
+  vertical-align: middle;
+}
+
+.settings-table td,
+.settings-table input[type="checkbox"],
+.settings-table .helpicon {
+  vertical-align: middle;
+}
+
+/* End of Mark-up table styles*/
+
+td.home {
+  text-align: justify;
+}
+
+input,
+textarea {
+  font-family: arial, sans-serif;
+  //font-size: 0.8em;
+  font-size: 80%;
+  //border-radius: 4px;
+}
+
+textarea {
+  border-radius: 4px;
+  overflow-x: hidden;
+}
+
+td.userterms {
+  //padding-top: 5px;
+  padding-left: 1em;
+  padding-right: 3px;
+  //padding-bottom: 10px;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+td.subj {
+  //padding-left: 3px;
+  //padding-right: 3px;
+  font-style: italic;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+td.trans {
+  //width:99%;
+  padding-left: 3px;
+  //padding-right: 3px;
+  text-align: justify;
+  vertical-align: text-top;
+  //line-height: 0.9;
+}
+
+td.trans1 {
+  //width:99%;
+  //padding-left: 3px;
+  //padding-right: 3px;
+  //text-align: justify;
+  vertical-align: text-top;
+  //line-height: 0.9;
+}
+
+td.dictlist1 {
+  padding-left: 12px;
+  text-indent: -12px;
+  padding-right: 3px;
+  text-align: left;
+  vertical-align: text-top;
+  line-height: 1.1;
+}
+
+.imageholder {
+  background: #76a7dc;
+  color: #fff;
+  height: 100px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+tryimg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  /*background-color: #b0e0e6;*/
+}
+
+.left_banner {
+  width: 160px;
+  top: 100px;
+  float: left;
+  /*    background: #aafed6;*/
+}
+
+.right_banner {
+  width: 240px;
+  float: right;
+  /*    background: #aafed6;*/
+}
+
+.banner_top {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: left;
+  /*background-color: #b0e0e6;*/
+}
+
+.banner_top_narrow {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 90;
+  text-align: left;
+  /*background-color: #b0e0e6;*/
+}
+
+.middle_col {
+  float: none;
+  /* not needed, just for clarification */
+  /*background: #e8f6fe;*/
+  /* the next props are meant to keep this block independent from the other floated one */
+  width: auto;
+  overflow: auto;
+  /*hidden*/
+  padding-left: 165px;
+  padding-right: 250px;
+}
+
+.middle_col1 {
+  float: none;
+  /* not needed, just for clarification */
+  width: auto;
+  overflow: auto;
+  /*hidden*/
+  padding-left: 165px;
+  padding-right: 250px;
+}
+
+.lclass9099 {
+  width: 160px;
+  top: 100px;
+  float: left;
+}
+
+.left_banner11 {
+  width: 160px;
+  top: 100px;
+  float: left;
+}
+
+lclassadpushup {
+  width: 160px;
+  position: fixed;
+  top: 400px;
+  left: 0px;
+  margin-top: -300px;
+  height: 600px;
+  border: none;
+}
+
+lclass160 {
+  width: 160px;
+  position: fixed;
+  top: 400px;
+  left: 0px;
+  margin-top: -300px;
+  height: 600px;
+  border: none;
+}
+
+rclass160 {
+  width: 160px;
+  position: fixed;
+  top: 410px;
+  right: 0px;
+  margin-top: -300px;
+  /*    margin-right: 10px; 10*/
+  height: 600px;
+  border: none;
+}
+
+.mclass0_10 {
+  float: none;
+  width: auto;
+  overflow: auto;
+  padding-left: 5px;
+  /*10*/
+  padding-right: 5px;
+  /*10*/
+}
+
+.mclass160_10 {
+  float: none;
+  width: auto;
+  overflow: auto;
+  padding-left: 170px;
+  padding-right: 10px;
+}
+
+.mclass160_120 {
+  float: none;
+  /* not needed, just for clarification */
+  width: auto;
+  overflow: auto;
+  /*hidden*/
+  padding-left: 170px;
+  padding-right: 140px;
+}
+
+.mclass160_160 {
+  float: none;
+  width: auto;
+  overflow: auto;
+  padding-left: 170px;
+  /*165*/
+  padding-right: 180px;
+}
+
+
+.mclass160_300 {
+  float: none;
+  width: auto;
+  overflow: auto;
+  padding-left: 170px;
+  padding-right: 300px;
+}
+
+.mclass160_320 {
+  float: none;
+  width: auto;
+  overflow: auto;
+  padding-left: 170px;
+  padding-right: 320px;
+}
+
+.rclass0 {
+  width: 5px;
+  float: right;
+}
+
+rclass120 {
+  //width: 120px;
+  //float: right;
+  position: fixed;
+  top: 410px;
+  right: 0px;
+  margin-top: -300px;
+  margin-right: 10px;
+  height: 400px;
+  width: 120px;
+  border: none;
+}
+
+rclass240 {
+  position: fixed;
+  top: 410px;
+  right: 0px;
+  margin-top: -300px;
+  margin-right: 10px;
+  height: 400px;
+  width: 240px;
+  border: none;
+}
+
+rclass300 {
+  position: fixed;
+  top: 410px;
+  right: 0px;
+  margin-top: -300px;
+  margin-right: 10px;
+  height: 400px;
+  width: 300px;
+  border: none;
+}
+
+rclass320 {
+  position: fixed;
+  top: 410px;
+  right: 0px;
+  margin-top: -300px;
+  margin-right: 10px;
+  height: 400px;
+  width: 320px;
+  border: none;
+}
+
+.middle_col_1_0 {
+  float: none;
+  /* not needed, just for clarification */
+  /*background: #e8f6fe;*/
+  /* the next props are meant to keep this block independent from the other floated one */
+  width: auto;
+  overflow: hidden;
+  padding-left: 160px;
+  padding-right: 5px;
+}
+
+.middle_mobile {
+  float: none;
+  /* not needed, just for clarification */
+  /*background: #e8f6fe;*/
+  /* the next props are meant to keep this block independent from the other floated one */
+  width: auto;
+  overflow: hidden;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+right_banner {
+  position: fixed;
+  top: 400px;
+  right: 0px;
+  margin-top: -300px;
+  margin-right: 10px;
+  height: 400px;
+  width: 240px;
+  border: none;
+}
+
+a.menu:link,
+a.menu:visited {
+  display: block;
+  font-weight: bold;
+  font-size: 0.7em;
+  font-family: "Verdana", Geneva, sans-serif;
+  color: #ffffff;
+  background-color: #427DB1;
+  width: 8.5em;
+  text-align: center;
+  text-transform: uppercase;
+  /*padding : 4px;*/
+
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+
+  text-decoration: none;
+  border-radius: 4px;
+  float: left;
+
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  margin-right: 0.4em;
+}
+
+a.menu:hover,
+a.menu:active {
+  background-color: var(--accent-dark);
+}
+
+#sugodiv {
+  color: var(--accent-dark);
+  text-align: right;
+  text-decoration: underline;
+  padding-right: 4px;
+  font-size: 80%;
+  cursor: pointer;
+  background: #fff;
+  width: 430px;
+}
+
+td.gray {
+  background-color: #DBDBDB;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  border-radius: 4px;
+  padding-left: 0.2em;
+  padding-left: 1px;
+  padding-right: 1px;
+  */
+}
+
+
+.forumbox {
+  vertical-align: top;
+  //   vertical-align: text-top;
+  max-width: 700px;
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+  padding-right: 0.3em;
+}
+
+.nowrap {
+  color: darkgray;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: top;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+.forumgrayline {
+  background-color: #DBDBDB;
+  //padding-left:0.5em;
+  //padding-top:0.1em;
+  //padding-bottom:0.1em;
+  padding: 0.1em 0.5em;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.forumreplyline {
+  background-color: #DBDBDB;
+  padding-left: 0.5em; // 0.2
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  border-radius: 4px;
+}
+
+td.phras {
+  white-space: normal;
+  vertical-align: text-top;
+  padding-left: 0.5em;
+  //padding-right:0.2em;
+  padding-right: 0.5em;
+}
+
+td.phras_cnt {
+  vertical-align: text-top;
+  padding-right: 2em;
+}
+
+td.morelangs {
+  white-space: normal;
+  vertical-align: text-top;
+  padding-left: 0.5em;
+  padding-right: 0.2em;
+}
+
+.tab {
+  text-indent: 10px;
+  padding-top: 5px;
+  line-height: 1.1;
+}
+
+.tab1 {
+  // text-indent: 10px; 
+  padding-top: 15px;
+  line-height: 1.1;
+}
+
+td.phrase_header {
+  background-color: #DBDBDB;
+  padding-left: 5px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+td.phras1_cnt {
+  background-color: #C6D9F1;
+  white-space: normal;
+  vertical-align: text-top;
+  padding-left: 0.5em;
+  padding-right: 1em;
+}
+
+td.phras1 {
+  background-color: #C6D9F1;
+}
+
+td.bans {
+  padding: 3px 3px 3px;
+  //overflow-wrap: break-word;
+  //word-wrap: break-word;
+  vertical-align: text-top;
+}
+
+table#bans {
+  table-layout: fixed;
+  padding: 3px 3px 3px;
+  vertical-align: text-top;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/*
+td.phraselist {
+  padding-left: 12px;
+  text-indent: -12px; 
+  white-space:normal;
+  vertical-align: text-top;
+}
+*/
+
+div.offset1 {
+  //position: relative;
+  left: 3px;
+  line-height: 1.5em;
+}
+
+table#phrasetable {
+  border-spacing: 0;
+  padding: 0;
+  table-layout: fixed;
+}
+
+td.phraselist0 {
+  /* phrases for subject - subjects*/
+  padding-left: 3px;
+  /*    text-indent: 10px; */
+
+  white-space: normal;
+  vertical-align: text-top;
+  /*padding-left:0.3em;*/
+  padding-right: 0.3em;
+  text-align: left;
+  /*justify*/
+}
+
+td.phraselist1 {
+  /* phrases for subject */
+  padding-left: 3px;
+  /*    text-indent: 10px; */
+
+  white-space: normal;
+  vertical-align: text-top;
+  /*padding-left:0.3em;*/
+  padding-right: 0.3em;
+  text-align: left;
+  /*justify*/
+}
+
+td.phraselist2 {
+  /* phrases for subject */
+  padding-left: 3px;
+  /*    text-indent: 10px; */
+
+  white-space: normal;
+  vertical-align: text-top;
+  /*padding-left:0.3em;*/
+  padding-left: 1em;
+  text-align: left;
+}
+
+g {
+  color: #80808B;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.bottom_line {
+  background-color: #DBDBDB;
+}
+
+.left_col {
+  text-align: left;
+}
+
+.left_col_mobile {
+  text-align: left;
+}
+
+
+.right_col {
+  text-align: right;
+}
+
+.bottom_line_left {
+  float: left;
+  background-color: #DBDBDB;
+}
+
+.bottom_line_right {
+  float: right;
+  background-color: #DBDBDB;
+}
+
+.search {
+  /*padding-left: 5px;*/
+}
+
+td.termsforsubject {
+  padding-left: 12px;
+  text-indent: -12px;
+  padding-right: 6px;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+td.dictlist {
+  padding-left: 12px;
+  text-indent: -12px;
+  padding-right: 3px;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+td.dictcount {
+  width: 90%;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+/* Add forum message */
+.fulltable {
+  width: 100%;
+  background-color: #DBDBDB;
+  padding: 5px;
+}
+
+.lefttable {
+  background-color: #DBDBDB;
+  padding: 5px;
+}
+
+.graytable {
+  //width:700px;
+  max-width: 700px;
+  min-width: 300px;
+  background-color: #DBDBDB;
+  padding: 5px;
+  border-radius: 4px;
+  border-spacing: 4px;
+}
+
+.lowgraytable {
+  //width:700px;
+  max-width: 700px;
+  ;
+  background-color: #DBDBDB;
+  padding: 1px;
+  border-radius: 4px;
+  border-spacing: 4px;
+  margin-bottom: 0.5em;
+}
+
+.whitetable {
+  width: 100%;
+  //background-color: #DBDBDB;
+  border: #000000 1px solid;
+  padding: 5px;
+  border-radius: 4px;
+  border-spacing: 4px;
+}
+
+.commatable {
+  width: 100%;
+  //background-color: #DBDBDB;
+  //border:#000000 1px solid;
+  padding: 5px;
+  //border-radius: 4px;
+  //border-spacing: 4px;
+}
+
+.fulltextarea {
+  width: 99%;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.expandable-input {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.div700 {
+  max-width: 700px;
+}
+
+td.rightfield {
+  width: 99%;
+}
+
+input {}
+
+.input1 {
+  color: gray;
+  display: block;
+  font-size: small;
+  padding-top: 3px;
+  position: relative;
+  text-indent: 5px;
+}
+
+input1 {
+  background-color: transparent;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+input1:focus,
+input1:first-line {
+  background-color: white;
+}
+
+p.empty10 {
+  height: 10px;
+}
+
+
+.blank_row10 {
+  height: 10px !important;
+  /* Overrides any previous rules */
+}
+
+.blank_row5 {
+  height: 5px !important;
+  /* Overrides any previous rules */
+}
+
+#UserTerms {
+  margin: 0px auto;
+  padding: 10px;
+}
+
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+div.sidebar {
+  overflow: hidden;
+  background-color: green;
+  padding: 5px;
+  position: fixed;
+  right: 20px;
+  width: 40%;
+  top: 30px;
+  padding: 20px;
+  bottom: 30%;
+}
+
+div#scrollable {
+  overflow-y: scroll;
+  background: #ccf3ff;
+  /*lightblue;*/
+
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  right: 20px;
+  bottom: 100px;
+}
+
+div#bottomline {
+  position: fixed;
+  width: 100%;
+  height: 20px;
+  background-color: yellow;
+  padding: 5px;
+  bottom: 0px;
+}
+
+div#replacebottom {
+  position: fixed;
+  width: 50%;
+  height: 300px;
+  margin-left: -25%;
+  background: #063;
+  bottom: 0px;
+  left: 50%;
+}
+
+#info {
+  height: 40px;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  background-color: #393838;
+  opacity: 1;
+}
+
+/*<div style=\"position:fixed; width:100 % ; height:20px; background - color:yellow; padding:5px; bottom:0px;\">test content : D</div>*/
+/*div#prevnextpage {
+  position:fixed;
+  width:100%;
+  height:20px;
+  background-color:yellow;
+  padding:5px;
+  bottom:0px;
+}*/
+
+myimg {
+  width: 100%;
+  height: auto;
+}
+
+tr.border_top td {
+  /* crowdsource */
+  border-top: 1pt dotted black;
+}
+
+.intLink {
+  cursor: pointer;
+}
+
+img.intLink {
+  border: 0;
+}
+
+#toolBar1 select {
+  font-size: 10px;
+}
+
+#textBox {
+  max-width: 700px;
+  //width: 700px;
+  height: 300px;
+  border: 1px #000000 solid;
+  padding: 5px;
+  overflow: auto;
+  resize: both;
+  background-color: white;
+  border-radius: 4px;
+}
+
+#textBox #sourceText {
+  padding: 0;
+  margin: 0;
+  //min-width: 498px;
+  min-width: 250px;
+  min-height: 200px;
+}
+
+#editMode label {
+  cursor: pointer;
+}
+
+#commentBox {
+  width: 500px;
+  height: 10em;
+  border: 1px #000000 solid;
+  padding: 3px;
+  overflow: auto;
+  resize: both;
+  background-color: white;
+}
+
+#wordformstable {
+  margin: 10px 0;
+  vertical-align: top;
+}
+
+table.interface {
+  margin-top: 0.2em;
+}
+
+.wordformstop {
+  //text-indent: 10px; 
+  vertical-align: top;
+}
+
+.wordforms {
+  //text-indent: 10px; 
+  padding-left: .2em;
+  padding-right: .2em;
+  //padding-top: .1em;
+  padding-bottom: .1em;
+  vertical-align: top;
+}
+
+.leftsent {
+  padding-left: .3em;
+  padding-right: .5em;
+  padding-bottom: .1em;
+  vertical-align: top;
+  text-align: justify;
+}
+
+.rightsent {
+  padding-left: .5em;
+  padding-right: .3em;
+  padding-bottom: .1em;
+  vertical-align: top;
+  text-align: justify;
+}
+
+.breaklink {
+  width: 700px;
+  overflow-wrap: break-word;
+}
+
+.nextline {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  //display: inline-block;
+  //width: 100%; 
+  //background: #FAF9F6;
+  //border-radius: 4px;
+}
+
+.nextline_s {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.nextline_0 {
+  //text-indent: 10px; 
+  //padding-top: 2px;
+  //padding-bottom: 2px;
+}
+
+.nextline10 {
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+
+
+
+
+.newstem {
+  padding-top: .2em;
+  padding-bottom: .2em;
+}
+
+div.leftoffset {
+  position: relative;
+  left: 0.5em;
+  line-height: 1.5em;
+}
+
+td.cs_dict {
+  //padding-top: 5px ;
+  padding-left: 5px;
+  //padding-bottom: 5px;
+  padding-right: 5px;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+.indentedbox {
+  width: 700px;
+  text-indent: 0.5em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+td.leftround {
+  //border: 2px solid red;
+  //border-radius: 4px;
+  /* background-color: #DBDBDB; */
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  /* border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px; */
+  vertical-align: bottom;
+}
+
+td.rightround {
+  //border: 2px solid red;
+  //border-radius: 4px;
+  /* background-color: #DBDBDB; */
+  padding-left: 0.2em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-right: 0.2em;
+  /* border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px; */
+}
+
+td.plaingray {
+  /* background-color: #DBDBDB; */
+  //padding-left:0.2em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
+
+td.forum {
+  padding-left: 0.2em;
+  //    text-align: left;
+  vertical-align: text-top;
+}
+
+td.resource {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+//#FullWidth {
+//font-family:sans-serif;
+//font-size: 14px;
+//width: 95%;
+//box-sizing: border-box;
+//}
+
+#input {
+  font-family: sans-serif;
+  font-size: 14px;
+  width: 95%;
+}
+
+#myProgress {
+  width: 95%;
+  background-color: lightgrey;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+}
+
+div.diary {
+  max-width: 700px;
+  text-align: justify;
+  text-indent: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div.diaryheader {
+  max-width: 700px;
+  text-align: justify;
+  background-color: #DBDBDB;
+  padding-left: 0.5em; // 0.2
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  border-radius: 4px;
+}
+
+div.myjustify {
+  text-align: justify;
+  width: 640px;
+}
+
+.editorig {
+  width: 90%;
+}
+
+.editcomment,
+.editexample {
+  box-sizing: border-box;
+  width: 95.5%;
+}
+
+div.explanation {
+  padding-top: 0.1em;
+  //  padding-bottom:0.1em;
+}
+
+//over
+.lclass90 {
+  width: 160px;
+  top: 100px;
+  float: left;
+}
+
+.mclass90_10 {
+  float: none;
+  /* not needed, just for clarification */
+  width: auto;
+  overflow: auto;
+  /*hidden*/
+  padding-left: 165px;
+  padding-right: 10px;
+}
+
+.mclass90_120 {
+  float: none;
+  /* not needed, just for clarification */
+  width: auto;
+  overflow: auto;
+  /*hidden*/
+  padding-left: 165px;
+  padding-right: 130px;
+}
+
+.mclass90_160 {
+  float: none;
+  /* not needed, just for clarification */
+  width: auto;
+  overflow: auto;
+  /*hidden*/
+  padding-left: 165px;
+  padding-right: 170px;
+}
+
+.mclass90_240 {
+  float: none;
+  /* not needed, just for clarification */
+  width: auto;
+  overflow: auto;
+  /*hidden*/
+  padding-left: 165px;
+  padding-right: 250px;
+}
+
+.mclass90_300 {
+  float: none;
+  /* not needed, just for clarification */
+  width: auto;
+  overflow: auto;
+  /*hidden*/
+  padding-left: 165px;
+  padding-right: 310px;
+}
+
+/*.rclass0 {
+  width: 5px;
+  float: right;
+}
+.rclass120 {
+  width: 120px;
+  float: right;
+}
+.rclass160 {
+  width: 160px;
+  float: right;
+}
+.rclass240 {
+  width: 240px;
+  float: right;
+}
+.rclass300 {
+  width: 300px;
+  float: right;
+}*/
+
+left_banner {
+  width: 100%;
+  position: fixed;
+  top: 400px;
+  left: 0px;
+  margin-top: -300px;
+  margin-left: 5px;
+  height: 600px;
+  width: 160px;
+  border: none;
+}
+
+.admintable {
+  background-color: #DBDBDB;
+  border-radius: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+/* Short warning in the New Topic dialogue in forum */
+
+.newpost-warning {
+  border: 1px solid dimgray;
+  border-radius: 4px;
+  padding: 3px 10px 7px;
+  background-color: white;
+  text-align: center;
+  color: dimgray;
+}
+
+/* Contributor rules in dictionary */
+
+.addrules {
+  max-width: 700px;
+  box-sizing: border-box;
+  padding: 5px 15px;
+  margin-left: 1px;
+  text-align: justify;
+
+  border: 3px solid rgb(219, 219, 219);
+  border-radius: 4px;
+
+  background: whitesmoke;
+  background: rgba(245, 245, 245, .7);
+}
+
+.addrules-header {
+  position: relative;
+
+  text-transform: uppercase;
+  color: gray;
+  font-family: sans-serif;
+  font-size: 0.95em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.addrules-header-text {
+  position: relative;
+  display: inline;
+}
+
+.addrules-header-text::after {
+  content: '';
+
+  position: absolute;
+  bottom: -2px;
+  right: 0;
+
+  width: 0;
+  height: 2px;
+  background: var(--accent-light);
+  //background: dimgray;
+
+  transition: width 0.5s, left 0.5s;
+}
+
+.addrules-header:hover {
+  color: dimgray;
+}
+
+.addrules-header-text:hover::after {
+  left: 0;
+  width: 100%;
+}
+
+.addrules-example {
+  color: var(--accent-light);
+  margin: 5px 10px 10px;
+  cursor: pointer;
+}
+
+.addrules-list {
+  margin-right: 20px;
+  font-family: sans-serif;
+  font-size: .8em;
+  color: gray;
+  cursor: auto;
+}
+
+.addrules-list li {
+  margin-left: 20px;
+  user-select: none;
+}
+
+.addrules-list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.addrules-list li:hover::marker {
+  color: var(--accent-light);
+}
+
+.addrules-sublist {
+  font-size: .9em;
+  margin: 0 10px 10px 20px;
+}
+
+ul.addrules-sublist li {
+  margin-bottom: 0;
+  list-style-type: disc;
+}
+
+.addrules a {
+  text-decoration: none;
+  color: var(--accent-light);
+}
+
+.addrules a:hover {
+  text-decoration: underline;
+}
+
+/* Forum Rules and Terms of Use */
+
+.rules {
+  text-align: justify;
+
+  max-width: 800px;
+  box-sizing: border-box;
+  padding: 30px;
+
+  border: 4px solid lightgray;
+  border-radius: 6px;
+  //box-shadow: inset 0 0 10px 3px dimgray;
+
+  border: 3px solid rgb(219, 219, 219);
+  border-radius: 4px;
+
+  background: rgba(250, 249, 246, .5);
+  background: whitesmoke;
+  background: rgba(245, 245, 245, .7);
+}
+
+.rules ul li {
+  margin-left: 25px;
+}
+
+/* Forum Rules navigation */
+
+.forum-rules-nav {
+  margin-left: 50px;
+}
+
+.forum-rules-nav>li a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.rules-title+ol {
+  margin-left: 0;
+  list-style: none;
+  counter-reset: li;
+}
+
+.rules-title+ol:before {
+  counter-increment: li;
+  content: counters(li, ".") ". ";
+}
+
+/* Auto-numbering of sections */
+
+.rules-title {
+  counter-reset: h3counter;
+}
+
+.rules-anchor:before {
+  content: counter(h3counter) ". ";
+  counter-increment: h3counter;
+  padding-right: 13px;
+}
+
+/* Auto-numbering of paragraphs */
+
+.subitems {
+  counter-reset: licounter;
+}
+
+.subitems>li {
+  padding-left: 5px;
+  counter-increment: licounter;
+}
+
+.subitems>li::marker {
+  content: counter(h3counter) "." counter(licounter)". ";
+  color: var(--accent-light);
+}
+
+/* Section anchors and hash links */
+
+.rules .hash-link {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 0;
+  transition: opacity 200ms;
+  padding-left: 3px;
+  text-decoration: none;
+  font-size: inherit;
+  color: #A9A9A9;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.hash-link:hover,
+.rules-anchor:hover>.hash-link {
+  opacity: 1;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.rules-anchor:hover {
+  cursor: default;
+}
+
+
+
+/* Other Forum Rules styles */
+
+.rules .subitems li {
+  margin: 10px 0 10px 9px;
+}
+
+.rules .sub-subitems li {
+  margin: 0 10px;
+  list-style-type: disc;
+}
+
+.last-updated {
+  font-size: smaller;
+  color: gray;
+}
+
+.rules-title {
+  margin-top: 0;
+  color: var(--accent-light);
+}
+
+.rules-anchor {
+  margin: 20px 0 20px;
+  color: var(--accent-light);
+}
+
+.rules p {
+  margin: 10px 30px;
+}
+
+.rules a {
+  color: var(--accent-light);
+  font-weight: 700;
+}
+
+.rules a:hover {
+  text-decoration: underline;
+}
+
+.rules blockquote {
+  font-style: italic;
+  margin: 10px 40px;
+  color: dimgray;
+}
+
+/* Localization markup hints */
+
+.markuphint {
+  max-width: 800px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.markuphint xmp {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: blue;
+}
+
+.markuphint p {
+  color: dimgray;
+}
+
+/* Editor & Moderator Badges */
+
+.badge {
+  /* //display: inline-block; */
+  width: 150px;
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
+  background: url('/gif/multitran_logo.png');
+  background-repeat: no-repeat;
+  background-position: 50% 85%;
+  background-size: auto 90%;
+  box-sizing: border-box;
+  overflow: hidden;
+  /* //padding: 20px 0; */
+  margin-bottom: 10px;
+}
+
+.badge p {
+  font-size: 21px;
+  color: DarkGray;
+  text-shadow: 2px 2px 2px black;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.badge p:hover {
+  color: crimson;
+  cursor: none;
+}
+
+a.nodecor:hover {
+  text-decoration: none;
+  color: firebrick;
+}
+
+.inline-flag {
+  position: relative;
+  display: inline;
+}
+
+/* Floating tooltips on hover over .helpicon*/
+/* Credits: https://habr.com/ru/post/132283/ */
+
+.helpicon {
+  /* content: url("shorturl.at/co234"); */
+  content: url('https://www.multitran.com/gif/mt_help_icon.svg');
+}
+
+.end-tooltip {
+  cursor: help;
+}
+
+.end-tooltip::after {
+  /* background: rgba(0, 0, 0, 0.8); */
+  color: whitesmoke;
+  background: var(--accent-light);
+  text-align: justify;
+  line-height: 1.1;
+
+  padding: 3px 7px 6px;
+  padding: 7px 15px 10px;
+  max-width: 310px;
+
+  border-radius: 0px 6px 6px 6px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+
+  content: attr(data-tooltip);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 10px;
+  z-index: 1;
+}
+
+.end-tooltip:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.in-settings.left::after {
+  margin-top: 20px;
+  margin-left: -360px;
+  border-radius: 6px 0px 6px 6px;
+}
+
+.in-dialogue.wide::after {
+  max-width: 380px;
+}
+
+.in-dialogue.left::after {
+  margin-left: -390px;
+  margin-left: -430px;
+  border-radius: 6px 0px 6px 6px;
+}
+
+/* Welcome To Multitran message */
+
+.welcomemsg {
+  display: block;
+  max-width: 650px;
+  text-align: justify;
+  box-sizing: border-box;
+  padding: 25px;
+}
+
+.welcomemsg h2 {
+  margin-bottom: 10px;
+  color: var(--accent-light);
+}
+
+.welcomemsg p {
+  margin: 10px auto;
+}
+
+.welcomemsg a {
+  text-decoration: none;
+  color: var(--accent-light);
+}
+
+.welcomemsg a:hover {
+  text-decoration: underline;
+}
+
+/* Links that hide or unhide a post in forum */
+
+.showhide {
+  font-size: larger;
+  font-variant: small-caps;
+}
+
+/* Tooltips */
+
+.tooltip {
+  position: relative;
+  display: inline;
+  /*    border-bottom: 1px dotted var(--accent-light);*/
+  /* mix-blend-mode: unset;  */
+  mix-blend-mode: normal;
+  /* z-index: 2;  */
+}
+
+.tooltip a {
+  text-decoration: none;
+}
+
+.tooltip .tooltiptext {
+  background-color: white;
+  color: #fff;
+  text-align: left;
+
+  width: 368px;
+  padding: 0px -5;
+  padding: 0 0 2px 2px;
+
+  border: 1px solid var(--accent-light);
+  border-radius: 6px;
+
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  visibility: hidden;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* Drop-down match list in Search bar*/
+
+#suggest {
+  border: #000000 1px solid;
+  position: absolute;
+  background: #ffffff;
+  text-align: right;
+  visibility: hidden;
+  z-index: 1;
+}
+
+#suggest div {
+  background: #fff;
+  color: #000;
+  padding-left: 14px;
+  cursor: pointer;
+  text-align: left;
+  text-indent: -10px;
+  width: 430px;
+  overflow: visible;
+}
+
+#suggest div.over {
+  color: #ffffff;
+  background: #427DB1;
+}
+
+/* Flexboxes */
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: end;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* Secondary styling classes */
+
+.width95 {
+  width: 95%;
+}
+
+.gray {
+  color: #808080;
+}
+
+.dimgray {
+  color: #696969;
+}
+
+.small {
+  font-size: smaller;
+}
+
+.justified {
+  text-align: justify;
+}
+
+/* p with padding 10px */
+
+.pb10 p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.nobreak {
+  white-space: nowrap;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Quoted text */
+
+q::before {
+  content: "«";
+}
+
+q::after {
+  content: "»";
+}
+
+
+.editcomment {
+  resize: vertical;
+}
+
+.topoff {
+  padding-top: 5px
+}
+
+/* Last updated by 4uzhoj 15.11.2022 12:01 Kyiv time */
+.secondindent {
+  text-indent: -10px;
+  padding-left: 10px;
+}
+
+
+
+.origr {
+  float: right;
+  height: 1em;
+  line-height: 1em;
+}
+
+.origl {
+  float: left;
+  height: 1em;
+  line-height: 1em;
+}
+
+h1 {
+  display: inline;
+  font-size: 1em;
+  font-weight: normal;
+}
